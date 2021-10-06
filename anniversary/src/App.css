@@ -1,0 +1,26 @@
+header{
+  margin:0 auto;
+  text-align: center;
+}
+img{
+  width: 80%;
+  height: 100vh;
+  position: relative;
+}
+
+.cover{
+  width: 30%;
+  position: absolute;
+  align-self: center;
+  z-index: 5;
+  top: 20vh;
+  left: 30%;
+}
+p{
+ 
+
+  font-family: 'Courier New', Courier, monospaces;
+  font-size: 5rem;
+font-weight: bold;
+color: wheat;
+}
