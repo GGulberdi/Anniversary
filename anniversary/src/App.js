@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Link to='/'></Link>
+      <Link exact to='/'></Link>
       <Link to='/home'>Home</Link>
       <header className="App-header">
         <div className='cover'><p>Our Journey started at January 6 2007y</p></div>
@@ -23,9 +23,13 @@ function App() {
         <img src={desert} className="App-logo" alt="logo" />
          </header>
 <Switch>
+<Route  exact path='/'>
+  <Home/>
+  </Route>
 <Route path='/home'>
   <Home/>
   </Route>
+
 </Switch>
 
 
