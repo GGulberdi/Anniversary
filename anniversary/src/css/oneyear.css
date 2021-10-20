@@ -1,0 +1,16 @@
+body{
+    position: relative;
+    margin: auto;
+    padding:0;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+}
+h1{
+   color: violet;
+   margin: auto;
+   
+}
