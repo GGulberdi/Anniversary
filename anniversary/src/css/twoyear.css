@@ -1,0 +1,17 @@
+body{
+    position: relative;
+    margin: auto;
+    padding:0;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+}
+p{
+   color: green;
+   margin: auto;
+   font-size: 5vh;
+   
+}
