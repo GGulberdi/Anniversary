@@ -3,7 +3,7 @@ import React from 'react'
 export default function SixYear() {
     return (
         <div>
-            Welcome to SixYear year
+            <p>Born third baby. Memphis, travel to turkmenistan.Stay alone, Move to Arkansas. Furst surgery?</p>
         </div>
     )
 }
