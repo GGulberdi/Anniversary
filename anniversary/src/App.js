@@ -27,25 +27,26 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className='sidebar'>
       <Link exact to="/">Home</Link>
-      <Link exact to="/oneyear">1</Link>
-      <Link exact to="/twoyear">2</Link>
-      <Link exact to="/threeyear">3</Link>
-      <Link exact to="/fouryear">4</Link>
-      <Link exact to="/fiveyear">5</Link>
-      <Link exact to="/sixyear">6</Link>
-      <Link exact to="/sevenyear">7</Link>
-      <Link exact to="/eightyear">8</Link>
-      <Link exact to="/nineyear">9</Link>
-      <Link exact to="/tenyear">10</Link>
-      <Link exact to="/elevenyear">11</Link>
-      <Link exact to="/twelveyear">12</Link>
-      <Link exact to="/thirteenyear">13</Link>
-      <Link exact to="/fourteenyear">14</Link>
-      <Link exact to="/fifteenyear">15</Link>
-
+      <Link exact to="/oneyear">First Year</Link>
+      <Link exact to="/twoyear">Second Year</Link>
+      <Link exact to="/threeyear">Third Year</Link>
+      <Link exact to="/fouryear">Forth Year</Link>
+      <Link exact to="/fiveyear">Fifth Year</Link>
+      <Link exact to="/sixyear">Sixth Year</Link>
+      <Link exact to="/sevenyear">Seventh Year</Link>
+      <Link exact to="/eightyear">Eighth Year</Link>
+      <Link exact to="/nineyear">Ningth Year</Link>
+      <Link exact to="/tenyear">Tenth Year</Link>
+      <Link exact to="/elevenyear">Eleventh Year</Link>
+      <Link exact to="/twelveyear">Twelth Year</Link>
+      <Link exact to="/thirteenyear">Thirtinth Year</Link>
+      <Link exact to="/fourteenyear">Fourtinth Year</Link>
+      <Link exact to="/fifteenyear">Fifteenth Year</Link>
+</div>
         
-
+<div className='mainpage'>
         <Switch>
           <Route exact path="/"><Home /></Route>
           <Route exact path="/oneyear"><OneYear /></Route>
@@ -65,6 +66,7 @@ function App() {
           <Route exact path="/fifteenyear"><FifteenYear /></Route>
 
         </Switch>
+        </div>
       </div>
     </Router>
   );
